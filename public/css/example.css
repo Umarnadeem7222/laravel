@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("pics/index-back.jpeg");
+  background-size: cover;
+}
+
+.box {
+  border-radius: 10px;
+  width: 400px;
+  padding: 40px;
+  top: 50%;
+  height: 600px;
+  box-shadow: 0 0 16px 1px rgb(0, 0, 0);
+  background-image: radial-gradient(
+    farthest-corner at 10px 10px,
+    #832121 50%,
+    white
+  );
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 100px;
+}
+p {
+  font-weight: bold;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #f6ee42;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box2 input[type="text"],
+.box2 input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #f6ee42;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box h1 {
+  color: #f6ee42;
+  text-transform: uppercase;
+  font-weight: 500px;
+  margin-top: 100px;
+}
+
+.box2 h1 {
+  color: #2ecc71;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 100px;
+  -webkit-text-stroke: 2px black;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 300px;
+
+  border-color: #2ecc71;
+}
+.box2 input[type="text"]:focus,
+.box2 input[type="password"]:focus {
+  width: 300px;
+
+  border-color: #2ecc71;
+}
+
+#log {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box2 input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+#log:hover {
+  background: #2ecc71;
+}
+
+.forgot {
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box2 {
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  margin-top: 50%;
+  box-shadow: 0 0 16px 1px rgb(0, 0, 0);
+
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 100px;
+}
+.box2 input[type="submit"]:hover {
+  background: #2ecc71;
+}
+
+#a {
+  color: #f6ee42;
+}
+@media only screen and (max-width: 380px) {
+  .box {
+    width: 250px;
+  }
+}

@@ -1,0 +1,30 @@
+Islamiyat link
+https://zoom.us/j/98155461513
+OS link
+https://zoom.us/j/91873379154?pwd=cXBvb3ZXaFR3VVBuMkJ5MitTS04wZz09
+Database link
+https://zoom.us/j/2625687818
+ITOAI Link:
+https://zoom.us/j/8442578918
+
+
+    
+      $req->validate([
+        'file' => 'required|mimes:csv,txt,xlx,xls,pdf|max:2048'
+        ]);
+
+
+        if($req->file()) {
+            $fileName = time().'_'.$req->file->getClientOriginalName();
+            $filePath = $req->file('file')->storeAs('uploads', $fileName, 'public');
+
+            $cd->Upload = time().'_'.$req->file->getClientOriginalName();
+            $cd->Path = '/storage/' . $filePath;
+
+
+	If($req->hasFile ('file'){
+$newfile = time()."_".$req->file->get client original name();
+$req->file->move('uploads', $newfile);
+$other_info->db column = 'uploads/'.$newfile;
+}
+You are updating so use variable $other_info

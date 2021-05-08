@@ -1,0 +1,21 @@
+body {
+  background-image: url(pics/pexels-pixabay-53594.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#signupstu {
+  background-color: lightskyblue;
+  height: 80vh;
+  border-radius: 5px;
+  box-shadow: 2px black;
+  opacity: 0.8;
+}
+.abc {
+  font-size: 15px;
+}
+@media (max-width: 576px) {
+  #signupstu {
+    background-color: lightskyblue;
+    height: 120vh;
+  }
+}
